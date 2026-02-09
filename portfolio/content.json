@@ -1,0 +1,168 @@
+{
+  "personal": {
+    "name": "VU HAI NAM",
+    "role": "Data Analyst & Analytics Engineer",
+    "tagline": "Transforming complex datasets into a competitive advantage. From architecting robust ETL pipelines with Airflow to crafting actionable dashboards in Looker/Power BI, I build the data infrastructure that powers strategic decisions. With versatile experience spanning Healthcare, Finance, and Marketing, I deliver insights that optimize performance and revenue.",
+    "email": "vuhainam@email.com",
+    "github": "https://github.com/vuhainam",
+    "linkedin": "https://linkedin.com/in/vuhainam"
+  },
+  "about": {
+    "heading": "About Me",
+    "subheading": "Turning raw data into actionable insights",
+    "bio": "Motivated Data Engineer with a solid foundation in building and managing data pipelines for ingestion, transformation, and transfer. Proficient in Big Data tools, utilizing PySpark and Delta Lake to optimize ELT workflows, with hands-on experience in handling large-scale datasets. Skilled in working with databases and eager to contribute technical expertise and a proactive learning mindset to deliver impactful data solutions."
+  },
+  "experience": {
+    "heading": "Work Experience",
+    "subheading": "A journey of creating impact through data",
+    "items": [
+      {
+        "dateRange": "Oct 2025 – Present",
+        "location": "Vietnam",
+        "role": "Data Engineer",
+        "company": "KPIM Joint Stock Company",
+        "projects": [
+          {
+            "title": "PVI Investment Data Platform",
+            "description": "Built a Data Lakehouse on Microsoft Fabric to consolidate insurance finance data from PIAS and BRAVO systems, enabling standardized reporting for the investment division.",
+            "highlights": [
+              "Constructed data ingestion infrastructure using Data Gateways and Dataflow Gen2 to load data from SQL Server/PostgreSQL into OneLake",
+              "Standardized and cleansed raw data using PySpark Notebooks and Stored Procedures",
+              "Developed Silver-to-Gold ETL workflows to construct a Star Schema, transforming transactional data into optimized Fact and Dimension tables",
+              "Managed automated orchestration via Fabric Pipelines, reducing monthly reporting time to under 30 minutes"
+            ]
+          },
+          {
+            "title": "Talentnet Data Infrastructure",
+            "description": "Built a centralized Data Warehouse to consolidate HR, Sales, and Financial data, enabling interactive dashboards for strategic decision-making.",
+            "highlights": [
+              "Consolidated disparate data from ERP Netsuite, CRM, Workforce, and SharePoint on Microsoft Fabric into a centralized Data Warehouse",
+              "Engineered ETL pipelines to process complex business logic for P&L, Balance Sheet, and Headcount",
+              "Modeled Star Schemas and developed 4 dashboards (Sales, Finance, Workforce, E-claim) to optimize query performance",
+              "Automated the reporting cycle, reducing time by ~90% and ensuring consistency"
+            ]
+          }
+        ]
+      },
+      {
+        "dateRange": "Jul 2025 – Sep 2025",
+        "location": "Vietnam",
+        "role": "Data Engineer Intern",
+        "company": "INDA Viet Nam Company Limited",
+        "highlights": [
+          "Set up database, schema and data model on SSMS",
+          "Developed ETL packages using SSIS to migrate data from Oracle to SQL Server",
+          "Wrote advanced SQL logic in Stored Procedures and Views",
+          "Optimized SQL queries to boost performance",
+          "Handled ad-hoc tasks, developed Tableau solutions, and supported BA communication"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "heading": "Skills & Expertise",
+    "subheading": "A holistic skillset spanning Domain Knowledge, Technical Proficiency, and Leadership",
+    "tabs": {
+      "domain": {
+        "label": "Domain",
+        "categories": [
+          {
+            "name": "Analytics",
+            "items": ["Healthcare Analytics", "Marketing Analytics", "Financial Analytics", "HR Analytics"]
+          },
+          {
+            "name": "Business Intelligence",
+            "items": ["Power BI", "Looker Studio", "Tableau"]
+          }
+        ]
+      },
+      "technical": {
+        "label": "Technical",
+        "categories": [
+          {
+            "name": "Programming",
+            "items": ["Python", "SQL", "R", "JavaScript"]
+          },
+          {
+            "name": "Data Engineering",
+            "items": ["Apache Airflow", "BigQuery", "PostgreSQL", "ETL Pipelines"]
+          },
+          {
+            "name": "DevOps & Tools",
+            "items": ["Docker", "GitHub", "Jira", "n8n"]
+          }
+        ]
+      },
+      "soft": {
+        "label": "Soft",
+        "categories": [
+          {
+            "name": "Communication",
+            "items": ["Stakeholder Management", "Data Storytelling", "Technical Writing"]
+          },
+          {
+            "name": "Leadership",
+            "items": ["Team Collaboration", "Project Management", "Mentoring"]
+          }
+        ]
+      }
+    }
+  },
+  "projects": {
+    "heading": "Featured Projects",
+    "subheading": "Comprehensive portfolio covering Healthcare, Marketing, Banking, and Data Engineering",
+    "items": [
+      {
+        "title": "VPI Hospital Reporting Automation",
+        "description": "Designed a configuration-driven ETL pipeline with smart batch processing. Automated 4 critical daily reports.",
+        "tags": ["Healthcare", "Data Engineering"],
+        "result": "Reduced manual data prep time by 90%",
+        "image": "",
+        "link": "#"
+      },
+      {
+        "title": "Customer 360 (RFM Model)",
+        "description": "Analyzed transaction data to segment customers and developed targeted retention strategies.",
+        "tags": ["Marketing", "Analytics"],
+        "result": "Increased retention by 15%",
+        "image": "",
+        "link": "#"
+      },
+      {
+        "title": "FPT Customer Sentiment Analysis",
+        "description": "Applied NLP to extract sentiment from reviews, classified using ML models.",
+        "tags": ["NLP", "Machine Learning"],
+        "result": "Improved CSAT by 25%",
+        "image": "",
+        "link": "#"
+      },
+      {
+        "title": "Banking Credit Segment Exploration",
+        "description": "Explored credit usage patterns to group customers for risk stratification.",
+        "tags": ["Banking", "Risk Analytics"],
+        "result": "Identified high-risk segments",
+        "image": "",
+        "link": "#"
+      },
+      {
+        "title": "Gamelytics: Mobile Game Lifecycle",
+        "description": "Built ETL pipeline for game logs, analyzed retention and 'Whale' user behavior.",
+        "tags": ["Game", "Big Data"],
+        "result": "Saved estimated $50k in revenue",
+        "image": "",
+        "link": "#"
+      },
+      {
+        "title": "HR Analytics Dashboard",
+        "description": "Visualized HR metrics to identify departments with high turnover and potential causes.",
+        "tags": ["HR", "People Analytics"],
+        "result": "Improved retention strategies",
+        "image": "",
+        "link": "#"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2025 Vu Hai Nam. All rights reserved."
+  }
+}
