@@ -1346,3 +1346,47 @@ h1, h2, h3, h4, h5, h6 {
     height: 32px;
   }
 }
+
+@media print {
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .hero-content,
+  .hero-name,
+  .hero-role,
+  .hero-tagline,
+  .hero-cta {
+    opacity: 1 !important;
+    transform: none !important;
+    visibility: visible !important;
+  }
+
+  .emoji-bg {
+    display: none !important;
+  }
+
+  .navbar {
+    position: static;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 60px 0;
+  }
+
+  section {
+    break-inside: avoid;
+  }
+
+  .project-card,
+  .exp-entry {
+    break-inside: avoid;
+  }
+
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
